@@ -7,7 +7,7 @@ rawpath=C:/Users/USER/desktop/exercise/raw
 echo "Extracting data from" $csv_url
 
 #Extract the data from the url link above using the wget command
-#wget $csv_url
+wget $csv_url
 
 #This is to indicate that the extraction has been completed
 echo "Extraction completed"
