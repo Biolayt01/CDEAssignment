@@ -9,10 +9,10 @@ echo "Extracting data from" $csv_url
 #Extract the data from the url link above using the wget command
 wget $csv_url
 
-#This is to indicate that the extraction has been completed
+#Extraction has been completed
 echo "Extraction completed"
 
-#I want to view the head records including the field names using the head command
+#Want to view the head records including the field names using the head command
 echo "Viewing the top records from the dataset"
 head annual-enterprise-survey-2023-financial-year-provisional.csv
 
